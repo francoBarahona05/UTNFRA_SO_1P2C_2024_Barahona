@@ -38,24 +38,26 @@ done
 
 # Montar y persistir particiones para el primer alumno
 for i in {1..3}; do
-  sudo mount "${DISCO}${i}" "/home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Barahona/EXAMENES-UTN/alumno_1/parcial_${i}"
+  sudo mount "${DISCO}${i}" "./EXAMENES-UTN/alumno_1/parcial_${i}"
 
-  echo "${DISCO}${i}/home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Barahona/EXAMENES-UTN/alumno_1/parcial_${i} ext4 defaults 0 0" | sudo tee -a /etc/fstab
+  echo "${DISCO}${i} ./EXAMENES-UTN/alumno_1/parcial_${i} ext4 defaults 0 0" | sudo tee -a /etc/fstab
 done
 
 # Montar y persistir particiones para el segundo alumno
 for i in {5..7}; do
-  sudo mount "${DISCO}${i}" "/home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Barahona/EXAMENES-UTN/alumno_2/parcial_$((i-4))"
+  sudo mount "${DISCO}${i}" "./EXAMENES-UTN/alumno_2/parcial_$((i-4))"
   
-  echo "${DISCO}${i} /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Barahona/EXAMENES-UTN/alumno_2/parcial_$((i-4)) ext4 defaults 0 0" | sudo tee -a /etc/fstab
+  echo "${DISCO}${i} ./EXAMENES-UTN/alumno_2/parcial_$((i-4)) ext4 defaults 0 0" | sudo tee -a /etc/fstab
 done
 
-# Montar y persistir particiones para el tercer alumno
+ Montar y persistir particiones para el tercer alumno
 for i in {8..10}; do
-  sudo mount "${DISCO}${i}" "/home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Barahona/EXAMENES-UTN/alumno_3/parcial_$((i-7))"
+  sudo mount "${DISCO}${i}" "./EXAMENES-UTN/alumno_3/parcial_$((i-7))"
 
-  echo "${DISCO}${i} /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Barahona/EXAMENES-UTN/alumno_3/parcial_$((i-7)) ext4 defaults 0 0" | sudo tee -a /etc/fstab
+  echo "${DISCO}${i} ./EXAMENES-UTN/alumno_3/parcial_$((i-7)) ext4 defaults 0 0" | sudo tee -a /etc/fstab
 done
 
-sudo mount "${DISCO}${i}" "/home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Barahona/EXAMENES-UTN/profesores"
-echo "${DISCO}11 /EXAMEN-UTN/profesores ext4 defaults 0 0" | sudo tee -a /etc/fstab
+# Montar y persistir partición para profesores en /dev/sdc11
+sudo mount "${DISCO}11" "./EXAMENES-UTN/profesores"
+echo "${DISCO}11 ./EXAMENES-UTN/profesores ext4 defaults 0 0" | sudo tee -a /etc/fstab
+
