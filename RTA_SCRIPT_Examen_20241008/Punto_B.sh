@@ -57,3 +57,5 @@ for i in {8..10}; do
   echo "${DISCO}${i} /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Barahona/EXAMENES-UTN/alumno_3/parcial_$((i-7)) ext4 defaults 0 0" | sudo tee -a /etc/fstab
 done
 
+sudo mount "${DISCO}${i}" "/home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Barahona/EXAMENES-UTN/profesores"
+echo "${DISCO}11 /EXAMEN-UTN/profesores ext4 defaults 0 0" | sudo tee -a /etc/fstab
