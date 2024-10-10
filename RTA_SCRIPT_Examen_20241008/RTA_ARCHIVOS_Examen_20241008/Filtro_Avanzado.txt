@@ -1,2 +1,0 @@
-IP Pública: 201.176.217.213
-URL del Repositorio Remoto: git@github.com:francoBarahona05/UTNFRA_SO_1P2C_2024_Barahona.git
