@@ -703,3 +703,124 @@
   703  ll
   704  cat .bash_history 
   705  history > .bash_history 
+  706  cat .bash_history 
+  707  git status
+  708  git add .
+  709  git status
+  710  git commit -m "feat: agregue el punto F funcionando"
+  711  git push
+  712  ll
+  713  ll RTA_SCRIPT_Examen_202410
+  714  sudo rm -r RTA_SCRIPT_Examen_202410
+  715  ll
+  716  sudo rm -r RTA_SCRIPT_Examen_202410
+  717  lsof +D /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Barahona/EXAMENES-UTN
+  718  lsof +d /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Barahona/EXAMENES-UTN
+  719  lsof +D /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Barahona
+  720  kill -9  6122 
+  721  lsof +D /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Barahona
+  722  kill -9 5255
+  723  sudo -i
+  724  su i-i
+  725  sudo -i
+  726  ll
+  727  cd repogit/UTNFRA_SO_1P2C_2024_Barahona/
+  728  ll
+  729  cd ../
+  730  sudo rm -r UTNFRA_SO_1P2C_2024_Barahona/
+  731  ll
+  732  git staus
+  733  cd repogit/UTNFRA_SO_1P2C_2024_Barahona/
+  734  git status
+  735  cd UTNFRA_SO_1P2C_2024_Barahona/
+  736  git status
+  737  cd ../
+  738  git clone git@github.com:francoBarahona05/UTNFRA_SO_1P2C_2024_Barahona.git
+  739  rm -rf UTNFRA_SO_1P2C_2024_Barahona
+  740  ll
+  741  cd ../
+  742  git clone git@github.com:francoBarahona05/UTNFRA_SO_1P2C_2024_Barahona.git
+  743  git status
+  744  ll
+  745  UTNFRA_SO_1P2C_2024_Barahona/
+  746  ÑÑ
+  747  ll
+  748  cd UTNFRA_SO_1P2C_2024_Barahona/
+  749  ll
+  750  git status
+  751  sudo rm -rf maria,lopez 
+  752  git status
+  753  rm -rf comidas.txt 
+  754  rm -rf user.txt 
+  755  rm -rf validar.txt 
+  756  ll
+  757  rm -rf usuario.txt 
+  758  ll
+  759  sudo rm -rf RTA_SCRIPT_Examen_202410
+  760  ll
+  761  git status
+  762  git add .
+  763  git status
+  764  git commit -m "chore: acomode unos archivos que no tenian que subirse"
+  765  git push
+  766  rm -rf RTA_SCRIPT_Examen_20241008/RTA_ARCHIVOS_Examen_20241008/
+  767  git status
+  768  rm -rf RTA_SCRIPT_Examen_20241008/Filtro_Basico.txt 
+  769  git status
+  770  git add .
+  771  git commit -m"chore: borre archivos que se ejecuto dentro y se subio"
+  772  git push
+  773  git status
+  774  ll
+  775  sudo rm -rf RTA_SCRIPT_Examen_202410
+  776  ll
+  777  sudo rm -rf /home/vagrant/UTNFRA_SO_1P2C_2024_Barahona/RTA_SCRIPT_Examen_202410
+  778  git status
+  779  lsof +D /home/vagrant/repogit/UTNFRA_SO_1P2C_2024_Barahona
+  780  lsof +D /home/vagrant/UTNFRA_SO_1P2C_2024_Barahona/RTA_SCRIPT_Examen_202410
+  781  tree /home/vagrant/UTNFRA_SO_1P2C_2024_Barahona/
+  782  sudo rm -rf /home/vagrant/UTNFRA_SO_1P2C_2024_Barahona/RTA_SCRIPT_Examen_20241010
+  783  tree /home/vagrant/UTNFRA_SO_1P2C_2024_Barahona/
+  784  git status
+  785  git add .
+  786  git commit -m "chore:entrega del primer parcial FRANCO BARAHONA"
+  787  git push
+  788  touch usuarios.txt
+  789  vim usuarios.txt 
+  790  vim RTA_SCRIPT_Examen_20241008/Punto_C.sh 
+  791  RTA_SCRIPT_Examen_20241008/Punto_C.sh usuarios.txt vagrant
+  792  ll /home/
+  793  ll /home/antonio/
+  794  vim RTA_SCRIPT_Examen_20241008/Punto_C.sh 
+  795  touch t.txt
+  796  vim t.txt 
+  797  RTA_SCRIPT_Examen_20241008/Punto_C.sh t.txt vagrant
+  798  ll /home/rodrigo/
+  799  sudo ll /home/rodrigo/
+  800  ll /home/
+  801  cd /home/
+  802  cd UTNFRA_SO_1P2C_2024_Barahona/
+  803  vim REDME.md
+  804  git status
+  805  git add REDME.md 
+  806  git status
+  807  git commit -m "chore:edite el redme para la entrega"
+  808  git push
+  809  git pull
+  810  ll
+  811  vim README.md 
+  812  sudo rm -r REDME.md 
+  813  git status
+  814  git add README.md 
+  815  git commit -m "chore: edite el readme"
+  816  git push
+  817  l
+  818  ll
+  819  git status
+  820  git add REDME.md 
+  821  git commit -m " "
+  822  git commit -m ":"
+  823  git push
+  824  history -a
+  825  git status
+  826  history > .bash_history 
