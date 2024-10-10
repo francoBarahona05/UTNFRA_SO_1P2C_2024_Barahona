@@ -1,2 +1,6 @@
-# UTNFRA_SO_1P2C_2024_Barahona
-primer parcial SO alumno franco barahona
+#Nombre: Franco 
+#Apellido: Barahona 
+#Legajo: 114402 
+#Division: 314
+
+
